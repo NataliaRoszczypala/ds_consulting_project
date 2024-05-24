@@ -13,7 +13,7 @@ class EDA:
         categorical_columns = self.data.select_dtypes(include=['object']).columns
         for col in categorical_columns:
             plt.figure(figsize=(10, 5))
-            sns.countplot(self.data[col])
+            sns.countplot(data = self.data, x = col)
             plt.title(f'{col} Distribution')
             plt.xlabel(col)
             plt.ylabel('Count')

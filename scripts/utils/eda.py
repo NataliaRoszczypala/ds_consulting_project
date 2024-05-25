@@ -70,6 +70,7 @@ class EDA:
                     correlations.loc[col1, col2] = 1.0
                 else:
                     correlations.loc[col1, col2] = self.cramers_v(col1, col2)
+        correlations = correlations.astype(float)
         return correlations
 
     def normality_test(self):

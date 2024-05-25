@@ -30,7 +30,7 @@ class DataPreprocessor:
         if columns is None:
             columns = self.data.select_dtypes(include=['object']).columns
         
-        self.data = pd.get_dummies(self.data, columns=columns)
+        self.data = pd.get_dummies(self.data, columns=columns, drop_first=True)
     
     def standardization(self, columns=None):
         if columns is None:

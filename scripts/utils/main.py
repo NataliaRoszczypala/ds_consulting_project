@@ -4,7 +4,7 @@ from data_preprocessor import DataPreprocessor
 from eda import EDA
 # %%
 # Load data
-data = pd.read_csv('shopping_trends.csv', index_col=0)
+data = pd.read_csv('data/shopping_trends.csv', index_col=0)
 
 print(data.head())
 print(data.info())

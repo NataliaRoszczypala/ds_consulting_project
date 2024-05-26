@@ -44,3 +44,26 @@ The data is downloaded from Kaggle, you can find it under [this](https://www.kag
 - scripts
   - utils - folder with .py files (mainly class and functions used in the analysis) but also with the .py files to refresh the data
 
+## Description of the scripts
+
+In the scripts folder you can find both .ipynb files and .py files. The .ipynb files contain files used to anlyse the data, they are stored to enable insight into data and help you get to know them. There is also utils folder which contains only .py files with class and functions used for analysis and for refreshing the data.
+
+### .ipynb files
+
+1_eda - Exploratory data analysis
+2_data_preparation - data cleaning and preparation development
+3_pca - Principal component analysis
+4_clustering - Clustering development
+5_regression - Regression development
+
+### .py files
+
+data_check - funcion to check the new input (updated data)
+data_preparation_modelling - funcion to prepare data for modelling
+data_preparation_refresh - funcion to prepare data for refresh
+data_preprocessor - class DataPreprocessor used for data cleaning and preprocessing
+data_refresh - **main** function to refresh the data
+eda.py - class EDA used for Exploratory data analysis
+hopkins_statistics - function to calculate Hopkins Statistics
+regression - class RegressionAnalysis used for regression
+rfe - function to perform Recursive Feature Elimination

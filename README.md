@@ -50,20 +50,20 @@ In the scripts folder you can find both .ipynb files and .py files. The .ipynb f
 
 ### .ipynb files
 
-1_eda - Exploratory data analysis
-2_data_preparation - data cleaning and preparation development
-3_pca - Principal component analysis
-4_clustering - Clustering development
-5_regression - Regression development
+- 1_eda - Exploratory data analysis
+- 2_data_preparation - data cleaning and preparation development
+- 3_pca - Principal component analysis
+- 4_clustering - Clustering development
+- 5_regression - Regression development
 
 ### .py files
 
-data_check - funcion to check the new input (updated data)
-data_preparation_modelling - funcion to prepare data for modelling
-data_preparation_refresh - funcion to prepare data for refresh
-data_preprocessor - class DataPreprocessor used for data cleaning and preprocessing
-data_refresh - **main** function to refresh the data
-eda.py - class EDA used for Exploratory data analysis
-hopkins_statistics - function to calculate Hopkins Statistics
-regression - class RegressionAnalysis used for regression
-rfe - function to perform Recursive Feature Elimination
+- data_check - funcion to check the new input (updated data)
+- data_preparation_modelling - funcion to prepare data for modelling
+- data_preparation_refresh - funcion to prepare data for refresh
+- data_preprocessor - class DataPreprocessor used for data cleaning and preprocessing
+- data_refresh - **main** function to refresh the data
+- eda.py - class EDA used for Exploratory data analysis
+- hopkins_statistics - function to calculate Hopkins Statistics
+- regression - class RegressionAnalysis used for regression
+- rfe - function to perform Recursive Feature Elimination

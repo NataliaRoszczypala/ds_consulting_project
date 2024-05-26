@@ -1,5 +1,5 @@
 import pandas as pd
-from utils.data_preprocessor import DataPreprocessor
+from data_preprocessor import DataPreprocessor
 
 def data_preparation_modelling(df):
 

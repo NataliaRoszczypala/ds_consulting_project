@@ -2,8 +2,14 @@ import pandas as pd
 from data_preprocessor import DataPreprocessor
 
 def data_preparation_modelling(df):
+    
+    # dro columns if exist
 
-    df = df.drop(columns=['Promo Code Used', 'Item Purchased'])
+    # List of columns you want to drop
+    columns_to_drop = ['Promo Code Used', 'Item Purchased']
+
+    # Drop columns only if they exist
+    df = df.drop(columns=[col for col in columns_to_drop if col in df.columns])
 
     ordered_categorical_cols = ['Size', 'Frequency of Purchases']
     categorical_cols = ['Gender', 'Category', 'Location',

@@ -7,6 +7,10 @@ import pickle
 from sklearn.decomposition import PCA
 import os
 
+# Set the working directory to the script's location
+script_dir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(script_dir)
+
 df = pd.read_csv('../../data/input/shopping_trends.csv')
 
 # Load centroids from the saved file

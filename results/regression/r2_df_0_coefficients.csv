@@ -7,5 +7,5 @@ Size,0.15851496,2,0,xgboost
 Season_Spring,0.11944407,2,0,xgboost
 Gender_Male,0.0,2,0,xgboost
 Category_Clothing,0.0,2,0,xgboost
-Season_Summer,0.0,2,0,xgboost
+Season_Winter,0.0,2,0,xgboost
 Discount Applied_Yes,0.0,2,0,xgboost

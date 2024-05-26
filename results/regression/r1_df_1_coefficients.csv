@@ -1,11 +1,11 @@
 Feature,Importance,regression_id,df_id,model
-Size,0.23966448,1,1,xgboost
-Age,0.13158277,1,1,xgboost
-Purchase Amount (USD),0.118664406,1,1,xgboost
-Season_Spring,0.11723707,1,1,xgboost
-Season_Summer,0.11082663,1,1,xgboost
-Previous Purchases,0.09960415,1,1,xgboost
-Category_Clothing,0.09256235,1,1,xgboost
-Frequency of Purchases,0.08985819,1,1,xgboost
+Age,0.15129337,1,1,xgboost
+Purchase Amount (USD),0.14476399,1,1,xgboost
+Season_Winter,0.13729623,1,1,xgboost
+Size,0.13391493,1,1,xgboost
+Season_Spring,0.12197527,1,1,xgboost
+Previous Purchases,0.11676763,1,1,xgboost
+Category_Clothing,0.10221008,1,1,xgboost
+Frequency of Purchases,0.0917784,1,1,xgboost
 Gender_Male,0.0,1,1,xgboost
 Discount Applied_Yes,0.0,1,1,xgboost

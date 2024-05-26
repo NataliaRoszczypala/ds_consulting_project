@@ -4,7 +4,7 @@
 
 This project aims to analyze consumer behavior in the online clothing retail sector to provide actionable insights for increasing customer satisfaction and retention. Given the significant growth and intense competition in the e-commerce market, particularly in the fashion segment, understanding consumer behavior is crucial for optimizing marketing efforts and enhancing profitability.
 
-The main goal of this project was not only to perform the analysis but also to develop an easily reusable process of updating the dashboard accorign to updated data.
+The main goal of this project was not only to perform the analysis but also to develop an easily and reusable process of updating the dashboard accorign to updated data.
 
 The project is developed for the "Data Science - Consulting Approach" course conducted by Grzegorz Krochmal at the Faculty of Economic Sciences, University of Warsaw.
 

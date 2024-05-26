@@ -1,7 +1,5 @@
 import pandas as pd
 
-df = pd.read_csv('../data/input/shopping_trends.csv')
-
 def data_check(df):
     
     required_cols = ['Customer ID', 'Age', 'Gender', 'Item Purchased', 'Category',
@@ -44,4 +42,3 @@ def data_check(df):
         return ValueError("There are missing values in the dataset.")
     
     return True
-

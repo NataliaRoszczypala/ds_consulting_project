@@ -1,0 +1,11 @@
+Feature,Coefficient,regression_id,df_id,model
+Purchase Amount (USD),0.039060738669686575,1,0,ridge
+Season_Spring,0.011705088839568757,1,0,ridge
+Season_Summer,0.008858649966752957,1,0,ridge
+Gender_Male,0.005944013353516057,1,0,ridge
+Size,0.00266376959919474,1,0,ridge
+Category_Clothing,0.0009967742842157947,1,0,ridge
+Frequency of Purchases,0.0006180604150036628,1,0,ridge
+Discount Applied_Yes,-0.007268517054367097,1,0,ridge
+Previous Purchases,-0.012277794907615026,1,0,ridge
+Age,-0.03211557282151627,1,0,ridge

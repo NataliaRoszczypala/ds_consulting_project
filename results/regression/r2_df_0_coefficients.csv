@@ -1,0 +1,11 @@
+Feature,Importance,regression_id,df_id,model
+Purchase Amount (USD),0.19430672,2,0,xgboost
+Review Rating,0.18488103,2,0,xgboost
+Age,0.17771281,2,0,xgboost
+Previous Purchases,0.16514042,2,0,xgboost
+Size,0.15851496,2,0,xgboost
+Season_Spring,0.11944407,2,0,xgboost
+Gender_Male,0.0,2,0,xgboost
+Category_Clothing,0.0,2,0,xgboost
+Season_Summer,0.0,2,0,xgboost
+Discount Applied_Yes,0.0,2,0,xgboost

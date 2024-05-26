@@ -1,0 +1,41 @@
+Feature,Coefficient,regression_id,df_id,model,Importance
+Purchase Amount (USD),0.039060738669686575,1,0,ridge,
+Season_Spring,0.011705088839568757,1,0,ridge,
+Season_Summer,0.008858649966752957,1,0,ridge,
+Gender_Male,0.005944013353516057,1,0,ridge,
+Size,0.00266376959919474,1,0,ridge,
+Category_Clothing,0.0009967742842157947,1,0,ridge,
+Frequency of Purchases,0.0006180604150036628,1,0,ridge,
+Discount Applied_Yes,-0.007268517054367097,1,0,ridge,
+Previous Purchases,-0.012277794907615026,1,0,ridge,
+Age,-0.03211557282151627,1,0,ridge,
+Size,,1,1,xgboost,0.23966448
+Age,,1,1,xgboost,0.13158277
+Purchase Amount (USD),,1,1,xgboost,0.118664406
+Season_Spring,,1,1,xgboost,0.11723707
+Season_Summer,,1,1,xgboost,0.11082663
+Previous Purchases,,1,1,xgboost,0.09960415
+Category_Clothing,,1,1,xgboost,0.09256235
+Frequency of Purchases,,1,1,xgboost,0.08985819
+Gender_Male,,1,1,xgboost,0.0
+Discount Applied_Yes,,1,1,xgboost,0.0
+Purchase Amount (USD),,2,0,xgboost,0.19430672
+Review Rating,,2,0,xgboost,0.18488103
+Age,,2,0,xgboost,0.17771281
+Previous Purchases,,2,0,xgboost,0.16514042
+Size,,2,0,xgboost,0.15851496
+Season_Spring,,2,0,xgboost,0.11944407
+Gender_Male,,2,0,xgboost,0.0
+Category_Clothing,,2,0,xgboost,0.0
+Season_Summer,,2,0,xgboost,0.0
+Discount Applied_Yes,,2,0,xgboost,0.0
+Age,0.0657204132545712,2,1,ridge,
+Review Rating,0.05937380277656719,2,1,ridge,
+Category_Clothing,0.056276284906471755,2,1,ridge,
+Gender_Male,0.018821322879005595,2,1,ridge,
+Previous Purchases,0.012865580436216143,2,1,ridge,
+Size,0.007504156491233587,2,1,ridge,
+Season_Spring,0.0014036309259321423,2,1,ridge,
+Discount Applied_Yes,-0.009311177627810044,2,1,ridge,
+Season_Summer,-0.01096886132372696,2,1,ridge,
+Purchase Amount (USD),-0.0521036121488317,2,1,ridge,

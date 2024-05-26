@@ -1,0 +1,11 @@
+Feature,Coefficient,regression_id,df_id,model
+Age,0.0657204132545712,2,1,ridge
+Review Rating,0.05937380277656719,2,1,ridge
+Category_Clothing,0.056276284906471755,2,1,ridge
+Gender_Male,0.018821322879005595,2,1,ridge
+Previous Purchases,0.012865580436216143,2,1,ridge
+Size,0.007504156491233587,2,1,ridge
+Season_Spring,0.0014036309259321423,2,1,ridge
+Discount Applied_Yes,-0.009311177627810044,2,1,ridge
+Season_Summer,-0.01096886132372696,2,1,ridge
+Purchase Amount (USD),-0.0521036121488317,2,1,ridge

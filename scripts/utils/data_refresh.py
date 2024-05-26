@@ -27,7 +27,7 @@ preprocessed_data.to_csv('../../data/automation/preprocessed_data.csv', index=Fa
 cleaned_data.to_csv('../../data/automation/cleaned_data.csv', index=False)
 
 # Load the saved PCA model
-with open('../../data/automation/pca_model.pkl', 'rb') as f:
+with open('../../data/automation/automation_input/pca_model.pkl', 'rb') as f:
     pca = pickle.load(f)
 
 # Apply the PCA transformation to the new data
